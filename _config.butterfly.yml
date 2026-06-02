@@ -18,13 +18,13 @@ menu:
 
 # 社交媒体配置
 social:
-  fab fa-github: https://github.com/ || Github || '#24292e'
+  fab fa-github: https://github.com/ouyangyuanpeng || Github || '#24292e'
   fas fa-envelope: mailto:admin@oyyp.top || Email || '#4a7dbe'
 
 # 图像配置 (采用极简高清的 Unsplash 摄影图片，打造现代高级视觉效果)
 favicon: https://images.unsplash.com/photo-1545235617-7a424a1a60cc?w=128
 avatar:
-  img: https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=256
+  img: https://avatars.githubusercontent.com/u/54929191?v=4
   effect: true # 开启头像旋转动画
 
 # 顶图配置
@@ -74,7 +74,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: 关注我的 GitHub
-      link: https://github.com/
+      link: https://github.com/ouyangyuanpeng
   card_announcement:
     enable: true
     content: "欢迎来到本站！这是一个经过深度优化与美化的现代化博客空间。主打极简设计与舒适体验。"
