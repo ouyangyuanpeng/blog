@@ -1,0 +1,127 @@
+# --------------------------------------
+# Hexo Butterfly Theme Configuration Override
+# --------------------------------------
+
+# 导航栏配置
+nav:
+  logo:
+  display_title: true
+  display_post_title: true
+  fixed: true # 固定导航栏，提升操作连贯性
+
+# 导航栏菜单
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+
+# 社交媒体配置
+social:
+  fab fa-github: https://github.com/ || Github || '#24292e'
+  fas fa-envelope: mailto:admin@oyyp.top || Email || '#4a7dbe'
+
+# 图像配置 (采用极简高清的 Unsplash 摄影图片，打造现代高级视觉效果)
+favicon: https://images.unsplash.com/photo-1545235617-7a424a1a60cc?w=128
+avatar:
+  img: https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=256
+  effect: true # 开启头像旋转动画
+
+# 顶图配置
+disable_top_img: false
+default_top_img: https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600 # 极简海滩
+index_img: https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600 # 经典雪山星空
+archive_img: https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1600 # 科技极简工作台
+tag_img: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1600 # 抽象代码与设备
+category_img: https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1600 # 人机交互与学习
+
+# 首页文章布局样式
+# 6: 瀑布流布局 - 现代感极强的卡片式瀑布流
+# 3: 左右交替大卡片布局
+index_layout: 3
+
+# 打字机副标题特效
+subtitle:
+  enable: true
+  effect: true
+  source: 1 # 自动拉取 hitokoto 一言 API
+  sub:
+    - "追求卓越，成功就会在不经意间追上你。"
+    - "代码是理性的诗歌，生活是感性的探索。"
+
+# 代码块美化
+code_blocks:
+  theme: ocean # 使用柔和深邃的 Ocean 代码配色
+  macStyle: true # 启用 macOS 风格的红绿黄三色控制按钮
+  word_wrap: true
+  copy: true
+  language: true
+  shrink: false
+
+# 网站侧边栏 (Aside)
+aside:
+  enable: true
+  hide: false
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description: "记录技术、生活与灵感，用代码构建更美好的数字世界。"
+    button:
+      enable: true
+      icon: fab fa-github
+      text: 关注我的 GitHub
+      link: https://github.com/
+  card_announcement:
+    enable: true
+    content: "欢迎来到本站！这是一个经过深度优化与美化的现代化博客空间。主打极简设计与舒适体验。"
+
+# 底部页脚
+footer:
+  owner:
+    enable: true
+    since: 2026
+  copyright:
+    enable: true
+    version: false # 隐藏版本号，令页面更清爽
+
+# 自适应暗黑模式
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1 # 根据系统设定自动切换，或者黑夜时间段自动切换
+
+# 圆角与视觉美化
+rounded_corners_ui: true # 开启全局精美圆角卡片 UI
+
+# 界面主色调美化 (采用科技湖蓝色调)
+theme_color:
+  enable: true
+  main: "#1890ff"
+  paginator: "#1890ff"
+  button_hover: "#40a9ff"
+  text_selection: "#1890ff"
+  link_color: "#1890ff"
+  meta_color: "#858585"
+  hr_color: "#e8e8e8"
+  code_foreground: "#f5222d"
+  code_background: "rgba(24, 144, 255, 0.05)"
+  toc_color: "#1890ff"
+  scrollbar_color: "#1890ff"
+
+# 加载动画 (Preloader)
+preloader:
+  enable: true
+  source: 1 # 精美的全屏平滑加载过渡效果
+
+# 页面进入动画
+enter_transitions: true
+
+# 字体优化配置
+font:
+  global_font_size: 15px
+  font_family: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+  code_font_family: "Consolas, Monaco, 'Courier New', monospace"
