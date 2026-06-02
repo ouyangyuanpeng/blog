@@ -125,3 +125,8 @@ font:
   global_font_size: 15px
   font_family: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif"
   code_font_family: "Consolas, Monaco, 'Courier New', monospace"
+
+# CDN 镜像资源配置 (解决第三方资源链接中断或加载缓慢问题)
+CDN:
+  option:
+    busuanzi: https://npm.elemecdn.com/busuanzi@2.3.0/bsz.pure.mini.js
